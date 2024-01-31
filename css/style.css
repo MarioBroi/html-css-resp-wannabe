@@ -136,3 +136,47 @@ img {
 }
 
 /* /wannabe tablet */
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 360px;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .col {
+        padding-bottom: 3rem;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .steps .col:last-child {
+        margin-bottom: 0;
+    }
+
+    .why-us .col-right,
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        padding-top: 4rem;
+    }
+
+}
+
+/* /wannabe mobile */
